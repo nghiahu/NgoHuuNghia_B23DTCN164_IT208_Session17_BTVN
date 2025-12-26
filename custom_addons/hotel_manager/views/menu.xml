@@ -1,0 +1,17 @@
+<menuitem name="Quản lý Khách sạn" id="hotel_root"/>
+
+<menuitem name="Lễ tân" parent="hotel_root"/>
+<menuitem name="Đặt phòng" action="action_hotel_booking"/>
+<menuitem name="Khách hàng" action="action_hotel_customer"/>
+
+<menuitem name="Quản lý Phòng" parent="hotel_root"/>
+<menuitem name="Danh sách Phòng" action="action_hotel_room"/>
+
+<menuitem name="Cấu hình" parent="hotel_root"/>
+<menuitem name="Loại phòng" action="action_room_type"/>
+<menuitem name="Dịch vụ" action="action_hotel_service"/>
+<menuitem
+    id="menu_hotel_customer"
+    name="Khách hàng"
+    parent="menu_hotel_reception"
+    action="action_hotel_customer"/>
